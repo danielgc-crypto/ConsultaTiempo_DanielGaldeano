@@ -38,8 +38,9 @@ El objetivo de la práctica se centra más en la aplicación que en el propio de
 * Segundo, definir tipo de instancia y crear un par de claves **(en mi caso uno ya hecho por AWS)** para conectarse por ssh.
 ![image](https://github.com/user-attachments/assets/bc33efa4-ee28-47b8-9db9-de86ad1484af)  
 
-* Tercero, lo único necesario en las configuraciones de red es que asigne automáticamente una IP pública, lo demás se puede quedar por defecto.
+* Tercero, lo único necesario en las configuraciones de red es que asigne automáticamente una IP pública, lo demás se puede quedar por defecto y en el grupo de seguridad permitir el tráfico **HTTP**.
 ![image](https://github.com/user-attachments/assets/6fa1c1f1-7048-4a50-88aa-e681cdff03b6)
+![image](https://github.com/user-attachments/assets/ea2a19c5-5097-400e-a636-c2bf01f64d0e)
 
 En la consola de **instancias** ya se puede apreciar la instancia recién creada con su ip pública.
 
@@ -47,8 +48,14 @@ En la consola de **instancias** ya se puede apreciar la instancia recién creada
 
 ### Instalaciones dentro de la instancia <a name="3.1"></a>
 
-Hay que hacer ciertas instalaciones para poder visualizar la aplicación e interactuar con ella, para resolver el problema he ejecutado un script que instale y configure Apache y PHP. Dicho Script lo he pasado por scp desde mi máquina anfitriona.
+Hay que hacer ciertas instalaciones para poder visualizar la aplicación e interactuar con ella, para resolver el problema he ejecutado un script que instale Apache y PHP. Dicho Script lo he pasado por scp desde mi máquina anfitriona.
 ![image](https://github.com/user-attachments/assets/4b946a27-5ef4-456a-9895-617947e1b27c)
+
+**SCRIPT**  
+Hay que darle permisos de ejecución `sudo chmod +x web.sh` y después ejecutarlo con `sudo bash web.sh`.
+![image](https://github.com/user-attachments/assets/c2a88350-9587-49c4-b32f-260c16b25d38)
+
+
 
 
 
