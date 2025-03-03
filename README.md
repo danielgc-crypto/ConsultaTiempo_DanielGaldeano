@@ -10,7 +10,7 @@
 
 
 
-## INTRODUCCIÓN<a name="id1"></aTT
+## INTRODUCCIÓN<a name="id1"></a>
 
 ## Objetivo<a name="id2"></a>
 El propósito de la práctica es desplegar en AWS una apliación web que permita consultar el tiempo de todas las ciudades del mundo.
@@ -46,8 +46,9 @@ En la consola de **instancias** ya se puede apreciar la instancia recién creada
 ![image](https://github.com/user-attachments/assets/30f00ce8-0049-43e1-9a80-1c2c63b1cb51)
 
 ### Instalaciones dentro de la instancia <a name="3.1"></a>
-Yo voy a usar termius para conectarme SSH
 
+Hay que hacer ciertas instalaciones para poder visualizar la aplicación e interactuar con ella, para resolver el problema he ejecutado un script que instale y configure Apache y PHP. Dicho Script lo he pasado por scp desde mi máquina anfitriona.
+![image](https://github.com/user-attachments/assets/4b946a27-5ef4-456a-9895-617947e1b27c)
 
 
 
