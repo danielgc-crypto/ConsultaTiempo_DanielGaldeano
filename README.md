@@ -25,7 +25,7 @@ La página debe mostrar lo siguiente:
 
  ## Creación de la instancia EC2<a name="id3"></a>
 
-El despliegue se hará desde una instancia EC2 en AWS **(Amazon Web Services)** y se accederá desde una IP elástica que se asignará automáticamente.  
+El despliegue se hará desde una instancia EC2 en AWS **(Amazon Web Services)** y se accederá desde una IP pública que se asignará automáticamente, el problema de esto que tanto para conectarse por ssh o acceder a la aplicación hay que vigilar que la dirección IP no haya cambiado.  
 
 **Nota: Como ya he hecho despligues documentados anteriormente no voy a centrarme mucho en explicar esta parte. 
 El objetivo de la práctica se centra más en la aplicación que en el propio despliegue por lo que la configuración de la instancia y su seguridad no serán los adecuados en un entorno real.**  
