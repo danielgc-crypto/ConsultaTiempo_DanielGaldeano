@@ -30,7 +30,7 @@
     </div>
 
     <!-- Botón para ir a Inicio -->
-    <a href="weather.php" class="btn">Inicio</a>
+    <a href="index.php" class="btn">Inicio</a>
 
     <?php
     $apiKey = '8d21a8f3db9f462c8f9b2b0e3c6d7b58'; // Reemplaza con tu API Key
