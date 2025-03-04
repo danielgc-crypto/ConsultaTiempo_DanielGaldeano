@@ -15,7 +15,7 @@
 
     <?php
     if (isset($_GET['city'])) {
-        $apiKey = '8d21a8f3db9f462c8f9b2b0e3c6d7b58'; // Reemplaza con tu API Key
+        $apiKey = ''; // Reemplaza con tu API Key
         $city = urlencode($_GET['city']);
         $geocodeUrl = "http://api.openweathermap.org/geo/1.0/direct?q={$city}&limit=1&appid={$apiKey}";
 
