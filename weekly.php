@@ -17,7 +17,7 @@
     </div>
 
     <?php
-    $apiKey = '8d21a8f3db9f462c8f9b2b0e3c6d7b58'; // Reemplaza con tu API Key
+    $apiKey = ''; // Reemplaza con tu API Key
     $lat = $_GET['lat'];
     $lon = $_GET['lon'];
 
