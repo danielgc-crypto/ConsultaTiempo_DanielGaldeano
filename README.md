@@ -12,9 +12,10 @@
 
 
 ## INTRODUCCIÓN<a name="id1"></a>
+El propósito de la práctica es desplegar en AWS una apliación web que permita consultar el tiempo de todas las ciudades del mundo.
+
 
 ## Objetivo<a name="id2"></a>
-El propósito de la práctica es desplegar en AWS una apliación web que permita consultar el tiempo de todas las ciudades del mundo.
 La página debe mostrar lo siguiente:
 * Formulario que permita la búsqueda de una ciudad.
   * Si no existe se informará en la página.
