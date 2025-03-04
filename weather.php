@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Consulta del Tiempo</h1>
-    <form action="weather.php" method="GET">
+    <form action="index.php" method="GET">
         <label for="city">Ciudad:</label>
         <input type="text" id="city" name="city" required>
         <button type="submit">Buscar</button>
